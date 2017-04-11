@@ -69,10 +69,23 @@ select {
 	width:1200px;
 	height:100px;
 }
-.box img {
-	height:60px;
-	margin-top:40px;
+.dd {
 	float:left;
+	height:58px;
+	padding:24px 0 18px 0;
+}
+.logo {
+	width:163px;
+	height:52px;
+	float:left;
+	background:url(../img/logo.png);
+}
+.move {
+	width:201px;
+	height:70px;
+	float:left;
+	background:url(../img/dong.gif) no-repeat;
+	margin-top:-10px;
 }
 .box .box1 {
 	width:540px;
@@ -141,6 +154,38 @@ select {
 	position:absolute;
 	left:117px;
 	top:-3px;
+}
+/*search注释*/
+.search {
+	width:1214px;
+	height:50px;
+	line-height:50px;
+}
+.search-l {
+	width:210px;
+	height:50px;
+	float:left;
+	background-color:#b1191a;
+	color:#fff;
+}
+.search-l span {
+	margin-left:20px;
+}
+.search-m {
+	height:50px;
+	float:left;
+}
+.search-m a {
+	margin-left:20px;
+}
+.word {
+	color:#f00;
+}
+.search-r {
+	width:140px;
+	height:50px;
+	float:right;
+	background-image:url(../img/bike.jpg);
 }
 /*底部注释*/
 .footer {
