@@ -1,4 +1,7 @@
-*{margin:0 auto;}
+*{
+	margin:0 auto;
+    padding: 0 ;
+}
 a {
 	text-decoration:none;
 	color:#666;
@@ -322,6 +325,39 @@ select {
 	height:54px;
 	float:left;
 	margin:24px 80px 20px 0;
+}
+/*指南注释*/
+.shop {
+	height:211px;
+	width:1214px;
+	padding:24px 0 40px 0;
+}
+.shop1 {
+	margin-right:120px;
+	float:left;
+}
+.shop-h {
+	font-weight:normal;
+	font-size:16px;
+	color:#666;
+	margin-bottom:12px;
+}
+
+.shop1 ul li {
+	margin-bottom:10px;
+}
+.shop2 {
+	float:right;
+	width:209px;
+	background:url(../img/china.png) 0 -131px;
+	height:165px;
+	color:#666;
+}
+.shop2 p{
+	line-height:20px;
+}
+.shop2 span {
+	float:right;
 }
 
 /*底部注释*/
