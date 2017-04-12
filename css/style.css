@@ -46,6 +46,17 @@ select {
 }
 .topbanner {
 	width:1210px;
+	height:80px;
+	background:url(../img/topbanner.jpg);
+}
+.close {
+	float:right;
+	background:url(../img/close.png) 0px 0px;
+	width:19px;
+	height:19px;
+}
+.close:hover {
+	background:url(../img/close.png) 0px 19px;
 }
 .message {
 	float:right;
@@ -195,6 +206,7 @@ select {
 .banner {
 	background:url(../img/banner.jpg) no-repeat center center ;
 	height:638px;
+	border-top: 2px solid #b1191a;
 }
 .content {
 	width:1214px;
