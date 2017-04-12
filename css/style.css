@@ -193,6 +193,58 @@ select {
 	background:url(../img/banner.jpg) no-repeat center center ;
 	height:638px;
 }
+.content {
+	width:1214px;
+	height:468px;
+	margin-bottom:6px;
+}
+.content-l {
+	height:468px;
+	width:210px;
+	float:left;
+	background:#c81623;
+}
+.content-r {
+	width:996px;
+	height:452px;
+	margin-top:12px;
+	float:right;
+	background:yellow;
+}
+.content-r1 {
+	float:left;
+}
+.joinus {
+	width:1214px;
+	height:164px;
+}
+.joinus1 {
+	width:210px;
+	height:150px;
+	float:left;
+}
+.joinus2 {
+	width:250px;
+	height:164px;
+	float:left;
+	margin-right:1px;
+}
+.guild {
+	width:100%;
+	height:94px;
+	background-color:#f5f5f5;
+}
+.guild-c {
+	height:94px;
+	width:1214px;
+}
+.guild-c-i {
+	width:220px;
+	height:54px;
+	float:left;
+	margin:24px 80px 20px 0;
+}
+
 /*底部注释*/
 .footer {
 	width:1218px;
