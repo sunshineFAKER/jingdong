@@ -79,6 +79,9 @@ select {
 	float:left;
 	padding-left:15px;
 }
+.last {
+	border-right:none;
+}
 /*logo部分注释*/
 .box {
 	width:1200px;
@@ -189,6 +192,7 @@ select {
 .search-m {
 	height:50px;
 	float:left;
+	position:relative;
 }
 .search-m a {
 	margin-left:20px;
@@ -201,6 +205,14 @@ select {
 	height:50px;
 	float:right;
 	background-image:url(../img/bike.jpg);
+}
+.new {
+	background:url(../img/new.jpg);
+	position:absolute;
+	left:400px;
+	background-repeat:no-repeat;
+	width:16px;
+	height:17px;
 }
 /*内容注释*/
 .banner {
@@ -246,7 +258,7 @@ select {
 	width:250px;
 	height:452px;
 	margin-left:10px;
-	border: 2px solid #e4e4e4;
+	
 	float:right;
 }
 .content-r2>p {
@@ -281,6 +293,7 @@ select {
 .main-r-b {
 	width:245px;
 	height:240px;
+	
 }
 .main-r-b .picture {
 	text-align:center;
@@ -307,6 +320,18 @@ select {
 	margin-top:10px;
 	line-height:20px;
 	font-size:12px;
+}
+.d1 {
+	position:relative;
+}
+.main-r-b .picture .d2 {
+	background:url(../img/song.png);
+	position:absolute;
+	left:50px;
+	top:1px;
+	background-repeat:no-repeat;
+	width:10px;
+	height:15px;
 }
 .joinus {
 	width:1214px;
@@ -393,7 +418,7 @@ select {
 	padding: 0 5px;
 }
 .footer-top {
-	width:800px;
+	width:736px;
 }
 .footer-m {
 	width:816px;
