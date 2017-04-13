@@ -429,6 +429,7 @@ select {
 	height:211px;
 	width:1214px;
 	padding:24px 0 40px 0;
+	position:relative;
 }
 .shop1 {
 	margin-right:120px;
@@ -450,6 +451,9 @@ select {
 	background:url(../img/china.png) 0 -131px;
 	height:165px;
 	color:#666;
+	position:absolute;
+	top:22px;
+	right:10px;
 }
 .shop2 p{
 	line-height:20px;
