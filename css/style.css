@@ -19,7 +19,7 @@ img {
 /*顶端注释*/
 .header {
 	height:110px;
-	width:100%;
+	width:100;
 	background-color:#f1f1f1;
 	line-height:30px;
 }
@@ -50,16 +50,16 @@ select {
 .topbanner {
 	width:1210px;
 	height:80px;
-	background:url(../img/topbanner.jpg);
+	background:url(../img/topbanmer.jpg);
 }
 .close {
 	float:right;
-	background:url(../img/close.png) 0px 0px;
+	background:url(../img/closepng) 0px 0px;
 	width:19px;
 	height:19px;
 }
 .close:hover {
-	background:url(../img/close.png) 0px 19px;
+	background:url(../img/closepng) 0px 19px;
 }
 .message {
 	float:right;
@@ -77,10 +77,10 @@ select {
 }
 .phone {
 	background:url(../img/sprite.png) no-repeat;
-	height:20px;
+	height:50px;
 	padding-top:3px;
 	float:left;
-	padding-left:15px;
+	padding-left:150px;
 }
 .last {
 	border-right:none;
@@ -118,21 +118,12 @@ select {
 .box div .text {
 	padding:4px;
 	border:1px solid #b61d1d;
-	width:450px;
+	width:45px;
 	height:30px;
 	line-hright:25px;
 	margin-right:0;
 }
-.box .box1 div{
-	background:#b61d1d;
-	float:right;
-	height:30px;
-	width:80px;
-	margin-right:10px;
-	text-align:center;
-	font-size:14px;
-	line-height:30px;
-}
+
 .box .box1 div a {
 	color:#fff;
 }
@@ -153,10 +144,10 @@ select {
 	border:1px solid #dfdfdf;
 	text-align:center;
 	padding-left:40px;
-	background:url(../img/sprite.png);
-	background-position:20px -105px;
+	background:url(../img/sprite.hng);
+
 	background-repeat:no-repeat;
-	position:relative;
+	
 }
 .box .box2 a {
 	line-height:40px;
@@ -195,7 +186,7 @@ select {
 .search-m {
 	height:50px;
 	float:left;
-	position:relative;
+
 }
 .search-m a {
 	margin-left:20px;
@@ -207,19 +198,19 @@ select {
 	width:140px;
 	height:50px;
 	float:right;
-	background-image:url(../img/bike.jpg);
+	background-image:url(../img/bike.png);
 }
 .new {
 	background:url(../img/new.jpg);
 	position:absolute;
-	left:400px;
+	left:20px;
 	background-repeat:no-repeat;
 	width:16px;
 	height:17px;
 }
 /*内容注释*/
 .banner {
-	background:url(../img/banner.jpg) no-repeat center center ;
+	background:url(img/banner.png);
 	height:638px;
 	border-top: 2px solid #b1191a;
 }
@@ -239,7 +230,7 @@ select {
 }
 .content-l ul li {
 	line-height:30px;
-	font-size:14px;
+	font-size:30px;
 }
 .content-l ul li a {
 	color:#fff;
@@ -390,7 +381,6 @@ select {
 	position:absolute;
 	left:50px;
 	top:1px;
-	background-repeat:no-repeat;
 	width:10px;
 	height:15px;
 }
@@ -405,7 +395,7 @@ select {
 }
 .joinus2 {
 	width:250px;
-	height:164px;
+	height:164ps;
 	float:left;
 	margin-right:1px;
 }
@@ -448,7 +438,7 @@ select {
 .shop2 {
 	float:right;
 	width:209px;
-	background:url(../img/china.png) 0 -131px;
+	background:url(../img/china.png) 0 131px;
 	height:165px;
 	color:#666;
 	position:absolute;
