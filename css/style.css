@@ -10,6 +10,9 @@ li {
 	list-style:none; 
 	font-size:12px;
 }
+.last {
+	border:0;
+}
 img {
 	border:none;
 }
@@ -135,11 +138,11 @@ select {
 }
 .box .box1 a {
 	color:#666666;
-	line-height:20px;
+	line-height:30px;
 	margin:0 3px;
 }
 .box .box1 .a1 {
-	color:#ff0000;
+	color:#c81623;
 	margin-left:0;
 }
 .box2 {
@@ -198,7 +201,7 @@ select {
 	margin-left:20px;
 }
 .word {
-	color:#f00;
+	color:#b1191a;
 }
 .search-r {
 	width:140px;
@@ -253,6 +256,64 @@ select {
 }
 .content-r1 {
 	float:left;
+	position:relative;
+}
+.xiaomi1:hover {
+	background:#666;
+}
+.xiaomi2:hover {
+	background:#666;
+}
+.xiaomi1 {
+	position:absolute;
+	top:213px;
+	left:0;
+	height:60px;
+	width:30px;
+	background:#b09eb4;
+	text-align:center;
+}
+.xiaomi1 a {
+	line-height:60px;
+	color:#fff;
+}
+.xiaomi2 {
+	position:absolute;
+	top:213px;
+	right:0;
+	height:60px;
+	width:30px;
+	background:#b09eb4;
+	text-align:center;
+}
+.xiaomi2 a {
+	line-height:60px;
+	color:#fff;
+}
+.xiaomi3 {
+	height:20px;
+	text-align:center;
+	position:absolute;
+	bottom:10px;
+	left:252px;
+}
+.xiaomi3 ul li {
+	background:#3e3e3e;
+	float:left;
+	height:18px;
+	width:18px;
+	line-height:18px;
+	border-radius:30px 30px 30px 30px;
+	margin:0 5px;
+}
+.xiaomi3 ul li a {
+	color:#fff;
+}
+.xiaomi3 ul li:hover {
+	background:#b61b1f;
+}
+.xiaomi3 ul .li1 {
+	background:#b61b1f;
 }
 .content-r2 {
 	width:250px;
@@ -436,4 +497,7 @@ select {
 	height:32px;
 	float:left;
 	margin-right:4px;
+}
+.footer-m p {
+	color:666666;
 }
